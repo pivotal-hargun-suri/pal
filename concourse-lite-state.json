@@ -1,0 +1,52 @@
+{
+    "director_id": "a157710b-61f3-45e6-6971-d8e68d47e543",
+    "installation_id": "01607226-41e6-4bda-7ccd-bd3bea0141b7",
+    "current_vm_cid": "vm-737bea87-428f-4bfb-72fe-845a259c01e9",
+    "current_stemcell_id": "05a4333a-3409-4fb1-70b6-ce87ea37b5f0",
+    "current_disk_id": "4b6438c7-236a-475a-743d-523dedb61d15",
+    "current_release_ids": [
+        "30d9489f-8630-43d3-52dc-2147bb6a2ca5",
+        "878a4e4a-ff32-4fe1-5ebf-07c07d2d020b",
+        "de599382-ee97-4dcc-54f7-2cb8d3442030",
+        "948dfb1e-61e0-4b53-6f60-d6e3b70c5acc"
+    ],
+    "current_manifest_sha": "ea33155d5154f7374fb3218a0b0720358b5b677d4288ef71b25eac0dd9a2de5e8c8ac2e2cb0ae879b7bf46d134e046d9264077b9d7ff7905a7e7924ef0d33b57",
+    "disks": [
+        {
+            "id": "4b6438c7-236a-475a-743d-523dedb61d15",
+            "cid": "disk-0d40d8e8-2bde-4366-7fca-265a38d7503c",
+            "size": 32768,
+            "cloud_properties": {}
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "05a4333a-3409-4fb1-70b6-ce87ea37b5f0",
+            "name": "bosh-vsphere-esxi-ubuntu-trusty-go_agent",
+            "version": "3468.22",
+            "cid": "sc-c8e7193f-a6eb-4f95-7af5-a53eca28bdba"
+        }
+    ],
+    "releases": [
+        {
+            "id": "30d9489f-8630-43d3-52dc-2147bb6a2ca5",
+            "name": "concourse",
+            "version": "3.9.2"
+        },
+        {
+            "id": "878a4e4a-ff32-4fe1-5ebf-07c07d2d020b",
+            "name": "garden-runc",
+            "version": "1.12.0"
+        },
+        {
+            "id": "de599382-ee97-4dcc-54f7-2cb8d3442030",
+            "name": "postgres",
+            "version": "25"
+        },
+        {
+            "id": "948dfb1e-61e0-4b53-6f60-d6e3b70c5acc",
+            "name": "bosh-virtualbox-cpi",
+            "version": "0.0.12"
+        }
+    ]
+}
