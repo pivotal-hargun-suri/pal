@@ -14,6 +14,7 @@ resources:
     username: {{cf-username}}
     password: {{cf-password}}
     organization: {{cf-org}}
+    space: "Hargun Suri"
 
 jobs:
 - name: build-and-deploy
